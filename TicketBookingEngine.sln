@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{89C45226-9F96-45E5-836C-AA2B2665C961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.WebApp", "TicketBooking.WebApp\TicketBooking.WebApp.csproj", "{71A85514-2E17-40DE-B9A5-23BB6C720CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.Api", "TicketBooking.Api\TicketBooking.Api.csproj", "{B172CB3C-D997-4238-BA2B-E05A48E6764A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.UnitTest", "TicketBooking.UnitTest\TicketBooking.UnitTest.csproj", "{B566CCD4-CF98-4274-BFFC-2C97E937510D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.IntegrationTests", "TicketBooking.IntegrationTests\TicketBooking.IntegrationTests.csproj", "{3D321808-F20E-4EC1-8BB5-98F333302E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71A85514-2E17-40DE-B9A5-23BB6C720CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A85514-2E17-40DE-B9A5-23BB6C720CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A85514-2E17-40DE-B9A5-23BB6C720CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A85514-2E17-40DE-B9A5-23BB6C720CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B172CB3C-D997-4238-BA2B-E05A48E6764A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B172CB3C-D997-4238-BA2B-E05A48E6764A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B172CB3C-D997-4238-BA2B-E05A48E6764A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B172CB3C-D997-4238-BA2B-E05A48E6764A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B566CCD4-CF98-4274-BFFC-2C97E937510D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B566CCD4-CF98-4274-BFFC-2C97E937510D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B566CCD4-CF98-4274-BFFC-2C97E937510D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B566CCD4-CF98-4274-BFFC-2C97E937510D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D321808-F20E-4EC1-8BB5-98F333302E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D321808-F20E-4EC1-8BB5-98F333302E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D321808-F20E-4EC1-8BB5-98F333302E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D321808-F20E-4EC1-8BB5-98F333302E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71A85514-2E17-40DE-B9A5-23BB6C720CE9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B172CB3C-D997-4238-BA2B-E05A48E6764A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B566CCD4-CF98-4274-BFFC-2C97E937510D} = {89C45226-9F96-45E5-836C-AA2B2665C961}
+		{3D321808-F20E-4EC1-8BB5-98F333302E3D} = {89C45226-9F96-45E5-836C-AA2B2665C961}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {776DBA3D-60EF-4402-A7D2-CCA06D01B9DE}
+	EndGlobalSection
+EndGlobal
